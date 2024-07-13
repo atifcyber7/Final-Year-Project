@@ -3,15 +3,11 @@ body {
     background-size: cover; /* Cover the entire background area */
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* Remove opacity property */
     font-family: Arial, sans-serif;
     color: #fff;
     margin: 0;
     padding: 0;
-    
 }
-
-
 
 .container {
     max-width: 1200px;
@@ -54,6 +50,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    margin-top: 10px; /* Added margin-top for spacing */
 }
 
 .warning {

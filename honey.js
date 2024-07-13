@@ -18,7 +18,10 @@ function submitIP() {
 document.getElementById('ipAddress').addEventListener('keyup', function(event) {
     if (event.key === 'Enter') {
         submitIP(); // Call the submitIP function when Enter is pressed
-
-        
     }
 });
+
+// Function to open the YouTube link
+function openYouTube() {
+    window.open("https://youtu.be/OKgGpBSsGlU?si=FbpYRFrNWVUvnPLz", "_blank");
+}
